@@ -1,0 +1,86 @@
+.feedback {
+    width: 100%;
+    margin-top: 130px;
+}
+.feedback__container {
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: black;
+    @media screen and (max-width: 992px) {
+        flex-direction: column;
+    }
+}
+.feedback__right {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.feedback__img img{
+    width: 100%;
+    border-radius: 10px;
+    max-width: 800px;
+}
+.feedback__title {
+    text-align: center;
+}
+
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+}
+.feedback__form-main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction:column;
+}
+.checkbox-fee.feedback a{
+    color: black;
+    font-weight: 600;
+}
+.feedback__form-main input {
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #1a2238;
+}
+.feedback__form-main textarea {
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    outline: none;
+    resize: none;
+    border: 1px solid #1a2238;
+}
+.feedback__form-main button {
+    padding: 20px 50px;
+    border-radius: 10px;
+    background: #fbaf08;
+    text-align: center;
+    color:white;
+    font-size: 16px;
+    line-height: 18.75px;
+    transition: 0.5s;
+    border: none;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+    border: 1px solid #fbaf08;
+}
+.feedback__form-main button:hover {
+    color: #fbaf08;
+    background-color: white;
+}

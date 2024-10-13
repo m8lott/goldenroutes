@@ -1,0 +1,118 @@
+.contact  {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    background-color: #181d7f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -160px;
+    margin-top: 100px;
+}
+.contact__container {
+    padding: 150px 35px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    flex-direction: column;
+}
+.contact__title h1 {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 59.8px;
+    text-align: center;
+    max-width: 600px;
+    @media screen and (max-width: 574px) {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+.contact__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact__right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.contact__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.contact__item img {
+    width: 30px;
+}
+.contact__item a {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: white;
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+}
+.contact__form-main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction:column;
+}
+.checkbox-contact a{
+    color: white;
+    font-weight: 600;
+}
+.contact__form-main input {
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    outline: none;
+}
+.contact__form-main textarea {
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    outline: none;
+    resize: none;
+}
+.contact__form-main button {
+    padding: 20px 50px;
+    border-radius: 10px;
+    background-color: #fbaf08;
+    text-align: center;
+    color:white;
+    font-size: 16px;
+    line-height: 18.75px;
+    transition: 0.5s;
+    border: none;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+.contact__form-main button:hover {
+    box-shadow: 0 0 10px #fbaf08,
+    0 0 20px #fbaf08,
+    0 0 30px #fbaf08,
+    0 0 70px #fbaf08;
+}
